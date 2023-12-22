@@ -1,0 +1,219 @@
+body {
+  width: 90%;
+  margin: auto;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heberg1 {
+  border: 1px solid #ccc;
+  background-color: #f2f1f0;
+  display: block;
+  padding: 36px;
+  margin-top: 20px;
+  width: 900px;
+  border-radius: 20px;
+}
+
+.afficherplus {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.stars {
+  color: #59b1df;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.cardHebergement,
+.hebergementCarte2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.carte {
+  width: 237px;
+  height: 216px;
+  background-color: white;
+  margin: 10px;
+  padding: 4px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgb(224, 223, 223);
+}
+.carte h2 {
+  font-size: 1.1em;
+  margin: 0 0 0 5px;
+}
+.carte p {
+  margin: 0 0 0 5px;
+}
+.carte img {
+  width: 235px;
+  height: 125px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.SectionPopulaire {
+  background-color: rgb(242, 241, 240);
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 37px;
+  width: 484px;
+}
+.SectionPopulaire h1, .SectionPopulaire h2 {
+  margin-left: 10px;
+}
+.SectionPopulaire .carte {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 98%;
+  height: 155px;
+  flex-direction: row;
+  background-color: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgb(146, 146, 146);
+}
+.SectionPopulaire .carte h2 {
+  font-size: 1.2em;
+  margin: 0 0 0 10px;
+}
+.SectionPopulaire .carte p {
+  margin: 5px 0 0 10px;
+  flex-wrap: wrap;
+}
+.SectionPopulaire .carte img {
+  width: 150px;
+  height: 156px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-right: 10px;
+}
+.SectionPopulaire .stars {
+  margin-top: 71px;
+}
+
+@media (max-width: 1709px) {
+  .SectionPopulaire {
+    background-color: rgb(242, 241, 240);
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 37px;
+    width: 343px;
+  }
+  .heberg1 {
+    border: 1px solid #ccc;
+    background-color: #f2f1f0;
+    display: block;
+    padding: 36px;
+    margin-top: 20px;
+    width: 800px;
+    border-radius: 20px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .page {
+    display: block;
+  }
+  .heberg1 {
+    width: 90%;
+    display: contents;
+  }
+  .heberg1 h1 {
+    margin-left: 15%;
+  }
+  .hebergements {
+    width: 85%;
+    margin: auto;
+  }
+  .cardHebergement,
+  .hebergementCarte2 {
+    flex-direction: row;
+  }
+  .cardHebergement,
+  .hebergementCarte2 {
+    width: 95%;
+    display: block;
+  }
+  .heberg1 .carte {
+    width: 100%;
+    margin-top: 35px;
+    height: 240px;
+  }
+  .heberg1 .carte img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-right: 10px;
+  }
+  .afficherplus {
+    visibility: hidden;
+  }
+  .SectionPopulaire {
+    margin-left: 19%;
+    display: contents;
+  }
+  .SectionPopulaire h1 {
+    margin-left: 15%;
+  }
+  .SectionPopulaire .stars {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1409px) {
+  .page {
+    display: block;
+  }
+  .heberg1 {
+    display: contents;
+    width: 90%;
+  }
+  .heberg1 h1 {
+    margin-left: 30%;
+  }
+  .hebergements {
+    width: 90%;
+    margin: auto;
+  }
+  .cardHebergement,
+  .hebergementCarte2 {
+    flex-direction: row;
+  }
+  .cardHebergement,
+  .hebergementCarte2,
+  .SectionPopulaire .carte {
+    width: 95%;
+  }
+  .SectionPopulaire {
+    margin-left: 30%;
+    display: contents;
+  }
+  .SectionPopulaire h1 {
+    margin-left: 15%;
+  }
+  .SectionPopulaire .stars {
+    margin-top: 30px;
+  }
+  .afficherplus {
+    visibility: hidden;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
